@@ -17,7 +17,10 @@ There are 43 features and 25,724 samples in the input data.\
 Because this is a binary classification, the output layer is made up of a single neuron.\
 For the hidden layers, we use the activation function `ReLU` to speed up the training process. `Sigmoid` is employed on the output layer since our output is a binary categorization.\
 The optimizer for this compilation is `adam`, and the loss function is `binary_crossentropy`.
-
+- The model's accuracy is less than 75%. This is not a satisfactory result in terms of predicting the effect of charity donations.\
+We implemented bucketing to the feature `ASK_AMT` and organized the different values by intervals to improve the model's performance.\
+We utilized a model with three hidden layers after increasing the number of neurons on one of the hidden levels.\
+We also attempted a different activation function (`tanh`), but none of these modifications helped the model perform better.
 ## Summary
 
 ## Contact:

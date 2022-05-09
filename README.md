@@ -22,7 +22,8 @@ We implemented bucketing to the feature `ASK_AMT` and organized the different va
 We utilized a model with three hidden layers after increasing the number of neurons on one of the hidden levels.\
 We also attempted a different activation function (`tanh`), but none of these modifications helped the model perform better.
 ## Summary
-
+The deep learning neural network model could not achieve the goal accuracy of 75%. Given that this goal level is rather typical, we may conclude that the model is not outperforming.
+We might utilize a supervised machine learning model like the Random Forest Classifier to mix a number of decision trees to get a categorized output and compare its performance to our deep learning model because we are in a binary classification situation.
 ## Contact:
 - Email : [neda.ahmadi.jesh@gmail.com](mailto:neda.ahmadi.jesh@gmail.com?subject=[GitHub]%20Source%20Han%20Sans)
 - Linkedin: www.linkedin.com/in/neda-ahmadi-j

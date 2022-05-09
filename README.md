@@ -12,6 +12,11 @@ The binary data in the `IS SUCCESSFUL` column indicates whether or not the chari
 - The features for our model are the columns `APPLICATION_TYPE`, `AFFILIATION`, `CLASSIFICATION`, `USE_CASE`, `ORGANIZATION`, `STATUS`, `INCOME_AMT`, `SPECIAL_CONSIDERATIONS`, `ASK_AMT`.
 - The categorical variables were encoded, the training and testing datasets were split, and the features were standardized.
 ### Compiling, Training, and Evaluating the Model
+- There are two hidden layers in this deep-learning neural network model, each comprising 80 and 30 neurons.\
+There are 43 features and 25,724 samples in the input data.\
+Because this is a binary classification, the output layer is made up of a single neuron.\
+For the hidden layers, we use the activation function `ReLU` to speed up the training process. `Sigmoid` is employed on the output layer since our output is a binary categorization.\
+The optimizer for this compilation is `adam`, and the loss function is `binary_crossentropy`.
 
 ## Summary
 

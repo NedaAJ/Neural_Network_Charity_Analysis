@@ -7,7 +7,10 @@ For the analysis, we employ the following methods:
 - Optimize the model
 ## Results
 ### Data Preprocessing
-
+- The identity information columns `EIN` and `NAME` have been deleted from the input data.
+The binary data in the `IS SUCCESSFUL` column indicates whether or not the charity donation was effective. The goal variable for our deep learning neural network is then this variable.
+- The features for our model are the columns `APPLICATION_TYPE`, `AFFILIATION`, `CLASSIFICATION`, `USE_CASE`, `ORGANIZATION`, `STATUS`, `INCOME_AMT`, `SPECIAL_CONSIDERATIONS`, `ASK_AMT`.
+- The categorical variables were encoded, the training and testing datasets were split, and the features were standardized.
 ### Compiling, Training, and Evaluating the Model
 
 ## Summary
